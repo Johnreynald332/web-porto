@@ -1,0 +1,126 @@
+#about,
+#skill,
+#project,
+#article,
+#contact{
+    scroll-margin-top: 100px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0f172a;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0f172a ;
+    padding: 20px;
+}
+
+#select{
+    display: flex;
+    gap: 20px;
+}
+
+#logo{
+    color: #4274D9;
+}
+
+a:hover{
+    color: #4274D9;
+}
+
+#intro{
+    text-align: center;
+    margin-top: 300px;
+}
+#name{
+    font-size: 100px;
+}
+#element{
+    color: #4274D9
+}
+
+#about{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#skill{
+    text-align: center;
+    
+}
+
+#skills-box{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap: 20px;
+    justify-content: center;
+    
+
+}
+
+#skills-box p{
+    background-color: #333D6D;
+    border-radius: 25px;
+    padding: 50px;
+    font-size: 20px;
+}
+
+#project{
+    margin-top: 300px;
+    text-align: center;
+}
+
+#projects-box a{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #333D6D;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+#article{
+    margin-top: 500px;
+    text-align: center;
+}
+#article-box{
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 20px;
+    justify-content: center;
+}
+.article-card{
+    background-color: #333D6D;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+    margin-top: 300px;
+}
